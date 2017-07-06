@@ -8,9 +8,11 @@ var dirty_clothes = [
 
 /* YOUR CODE HERE */
 function clean(clothing_item){
-    // return clean_clothing_item;
-}
+  let clean_clothing_item = clothing_item.replace("*", "");
+  return clean_clothing_item;
+};
 
+clean("*blue shirt");
 
 /* PRINT RESULT */
 console.log("--> Finished running clean.js");
